@@ -12,6 +12,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+img {
+  display: block;
+  width: 100%;
+}
 /* =====================================Header================================ */
 .header {
   padding-top: 71px;
@@ -32,6 +36,11 @@ body {
 .gallary {
   padding-bottom: 66px;
 }
+.gallary-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .gallary-cards {
   display: flex;
   flex-wrap: wrap;
@@ -40,7 +49,7 @@ body {
   margin-bottom: 90px;
 }
 .gallary-card {
-  width: 420px;
+  flex-basis: calc((100% - 65px) / 2);
 }
 .gallary-photo {
   margin-bottom: 40px;
@@ -60,4 +69,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: #626262;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  border: 1px solid #626262;
+  align-self: center;
 }
