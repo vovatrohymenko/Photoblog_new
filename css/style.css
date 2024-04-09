@@ -37,17 +37,23 @@ body {
   flex-wrap: wrap;
   row-gap: 130px;
   column-gap: 65px;
+  margin-bottom: 90px;
 }
 .gallary-card {
   width: 420px;
+}
+.gallary-photo {
+  margin-bottom: 40px;
 }
 .gallary-category {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   color: #b4ad9e;
+  margin-bottom: 40px;
 }
 .gallary-title {
   font-size: 30px;
+  margin-bottom: 40px;
 }
 .gallary-button {
   font-family: "Playfair Display", serif;
