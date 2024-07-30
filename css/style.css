@@ -41,14 +41,14 @@ img {
   flex-direction: column;
 }
 
-.gallary-cards {
+.gallary-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 130px;
   column-gap: 65px;
   margin-bottom: 90px;
 }
-.gallary-card {
+.gallary-item {
   flex-basis: calc((100% - 65px) / 2);
 }
 .gallary-photo {
