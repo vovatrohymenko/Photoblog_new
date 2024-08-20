@@ -1,0 +1,14 @@
+.header {
+  padding-top: 71px;
+  padding-bottom: 92px;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 555px;
+  margin: 0 auto;
+}
+.menu-link:hover {
+  color: #03a9f4;
+}

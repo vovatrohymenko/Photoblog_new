@@ -1,0 +1,15 @@
+.gallary {
+  padding-bottom: 66px;
+}
+.gallary-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallary-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 130px;
+  column-gap: 65px;
+  margin-bottom: 90px;
+}
