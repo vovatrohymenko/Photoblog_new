@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+}
+
+.container {
+  max-width: 936px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding-top: 71px;
+  padding-bottom: 92px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 555px;
+  margin: 0 auto;
+}
+
+.menu-link:hover {
+  color: #03a9f4;
+}
+
+.gallary {
+  padding-bottom: 66px;
+}
+
+.gallary-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallary-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 130px;
+  -moz-column-gap: 65px;
+       column-gap: 65px;
+  margin-bottom: 90px;
+}
+
+.gallary-item {
+  flex-basis: calc((100% - 65px) / 2);
+}
+
+.gallary-photo {
+  margin-bottom: 40px;
+}
+
+.gallary-category {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #b4ad9e;
+  margin-bottom: 40px;
+}
+
+.gallary-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.gallary-button {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  border: 1px solid #626262;
+  align-self: center;
+}/*# sourceMappingURL=main.css.map */
